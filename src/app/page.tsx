@@ -10,15 +10,7 @@ export default function Home() {
         <h1 className="text-3xl md:text-4xl font-extrabold text-center text-white drop-shadow mb-2">
           জুলাই গণঅভ্যুত্থান ৩৬ দিনের ক্যালেন্ডার
         </h1>
-        <div 
-          className="w-full p-4 rounded-lg"
-          style={{
-            backgroundImage: 'url(/public:26-july-bg.png)',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat'
-          }}
-        >
+        <div className="w-full p-4 rounded-lg bg-gradient-to-r from-red-800/80 to-yellow-600/80">
           <CalendarGrid />
         </div>
         <Banner />
