@@ -1,4 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# July Uprising Calendar
+
+Students Against Discrimination Archive (SADA) - জুলাই গণঅভ্যুত্থান ৩৬ দিনের ক্যালেন্ডার
+
+## About
+
+This is a Next.js project that commemorates the July Uprising in Bangladesh through an interactive 36-day calendar. Each day shows historical events and photos from the student movement.
+
+## Features
+
+- Interactive 36-day calendar grid
+- Dynamic pages for each day with photos
+- Responsive design with Tailwind CSS
+- shadcn/ui components
+- Background images and theming
 
 ## Getting Started
 
@@ -16,18 +30,12 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technology Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Next.js](https://nextjs.org) - React framework
+- [Tailwind CSS](https://tailwindcss.com) - Styling
+- [shadcn/ui](https://ui.shadcn.com) - UI components
+- TypeScript
 
 ## Deploy on Vercel
 

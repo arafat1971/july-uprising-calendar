@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Large image files
+*.jpeg
+*.jpg
+*.png
+!public/sadalogo.png
+!public/calendar/*.jpg
