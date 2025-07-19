@@ -40,9 +40,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# Large image files
-*.jpeg
-*.jpg
-*.png
-!public/sadalogo.png
-!public/calendar/*.jpg
+# Only ignore root level image files, allow public folder
+/*.jpeg
+/*.jpg
+/*.png
