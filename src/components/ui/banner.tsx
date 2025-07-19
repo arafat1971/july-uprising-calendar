@@ -8,18 +8,7 @@ export default function Banner() {
           src="/WhatsApp Image 2025-07-10 at 17.47.56.jpeg" 
           alt="জুলাই গণঅভ্যুত্থান" 
           className="w-full h-full object-cover"
-          onError={(e) => {
-            const target = e.target as HTMLImageElement;
-            target.style.display = 'none';
-            const nextElement = target.nextElementSibling as HTMLElement;
-            if (nextElement) {
-              nextElement.style.display = 'flex';
-            }
-          }}
         />
-        <div className="w-full h-full bg-red-900 flex items-center justify-center text-white text-2xl font-bold" style={{display: 'none'}}>
-          জুলাই গণঅভ্যুত্থান
-        </div>
       </div>
       <h2 className="text-3xl md:text-4xl font-bold text-white drop-shadow mb-2 text-center">জুলাই গণঅভ্যুত্থান সাতক্ষীরা</h2>
       <p className="text-white text-center max-w-2xl">বাংলাদেশের ইতিহাসে জুলাই মাসের গণঅভ্যুত্থান ও ছাত্র আন্দোলনের স্মরণে।</p>
